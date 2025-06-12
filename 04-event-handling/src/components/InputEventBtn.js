@@ -1,6 +1,8 @@
 import React from "react";
 
-function InputEvent() {
+// 인풋 포커스 인/아웃  |  버튼 마우스 오버/아웃  |  인풋 값변경, 버튼 클릭
+function InputEventBtn() {
+    // 값 변경
     function handleChange(event) {
         console.log(event.target.value);
     }
@@ -9,8 +11,14 @@ function InputEvent() {
         console.log(event.target.value);
     }
 
-    // 둘다 같은 방식
+    //-----------------------------------------------
+
+    /* 작성 방식은 둘다 같은 방식 */
     // function 변수명() {} | const 변수명 = () => {}
+
+    //-----------------------------------------------
+
+    // 인풋 포커스 인/아웃
     function handleFoucs() {
         console.log('input handleFoucs')
     }
@@ -25,6 +33,8 @@ function InputEvent() {
     //     console.log('input handleBlur')
     // }
 
+
+    // 마우스 오버/아웃
     function handleMouseOver() {
         console.log('btn handleMouseOver')
     }
@@ -43,4 +53,4 @@ function InputEvent() {
 
  }
 
-export default InputEvent;
+export default InputEventBtn;

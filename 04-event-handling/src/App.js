@@ -1,12 +1,22 @@
-// InputEvent
 import React from 'react';
-import InputEvent from './components/InputEvent';
+import InputEventBtn from './components/InputEventBtn';
+import EventInput from './components/EventInput';
+
 
 function App() {
-
+  
+  // InputEventBtn 예제
+  // return (
+  //   <div className="App">
+  //     <InputEventBtn />
+  //   </div>
+  // );
+    
+    
+  // EventInput 입력 예제
   return (
     <div className="App">
-      <InputEvent />
+      <EventInput />
     </div>
   );
 }
