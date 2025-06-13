@@ -1,25 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import UserList from './components/UserList';
+import FocusInput from './components/FocusInput';
+import ResponsiveText from './components/ResponsiveText';
+import ResponsiveComponent from './components/ResponsiveComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <UserList />
+      <FocusInput />
+      <ResponsiveText />
+      <ResponsiveComponent />
     </div>
   );
 }
 
 export default App;
+
+
